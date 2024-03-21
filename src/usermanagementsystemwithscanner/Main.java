@@ -29,20 +29,20 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        try {
-        int quantity = scanner.nextInt();
-        scanner.nextLine();
-
-        for (int i = 1; i <= quantity; i++) {
-            String name = scanner.nextLine();
-            addUser(name);
+        try (Scanner scanner = new Scanner(System.in)) {
+            System.out.print("Enter the number of users to add: ");
+            int quantity = scanner.nextInt();
+            scanner.nextLine(); // Consume the newline character
+   
+            // Loop to add users
+            for (int i = 1; i <= quantity; i++) {
+              System.out.print("Enter name for user " + i + ": ");
+              String name = scanner.nextLine();
+              addUser(name);
+            }
         }
 
+        System.out.println("\nList of Users:");
         listUsers();
-    } 
-    finally {
-        scanner.close();
+      }
     }
-  }
-}
