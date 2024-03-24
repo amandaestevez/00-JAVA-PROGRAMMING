@@ -11,7 +11,7 @@ public class Main {
             OldCurrencyConverter oldConverter = new OldCurrencyConverter();
             CurrencyAdapter adapter = new CurrencyAdapter(oldConverter);
 
-            // Chamar o método para converter USD para EUR
+            // Converts from USD to EUR
             double convertedAmount = adapter.convertUSDtoEUR(input);
 
             // Imprimir o resultado da conversão
