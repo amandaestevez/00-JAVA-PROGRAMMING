@@ -1,4 +1,3 @@
-package ecommerce.creatingusercatalog;
 
 //This implements the *Observer* interface, which means it is an observer in an observer pattern.
 class User implements Observer {

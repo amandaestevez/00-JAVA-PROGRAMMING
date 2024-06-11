@@ -1,5 +1,3 @@
-package ecommerce.creatingusercatalog;
-
 import java.util.Scanner;
 
 /*

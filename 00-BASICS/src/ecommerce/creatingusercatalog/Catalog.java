@@ -1,4 +1,4 @@
-package ecommerce.creatingusercatalog;
+
 
 import java.util.ArrayList;
 import java.util.List;
