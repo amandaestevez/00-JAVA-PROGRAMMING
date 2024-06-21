@@ -1,4 +1,4 @@
-package padroesprojetojava.facade;
+package designpatterns.facade;
 
 import subsistema1.crm.CrmService;
 import subsistema2.cep.CepApi;

@@ -21,7 +21,7 @@ public class UserManager{
     }
 
     public void listUsers(){
-      System.out.println("Usuários registrados: ");
+      System.out.println("Users registered. ");
       for (User user : users){
         System.out.println(user.getName());
       }

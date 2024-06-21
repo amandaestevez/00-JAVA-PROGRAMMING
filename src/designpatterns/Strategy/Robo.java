@@ -1,10 +1,14 @@
-package padroesprojetojava.Strategy;
+package designpatterns.Strategy;
 
 public class Robo {
 
     private Comportamento comportamento;
 
-    //o bloco abaixo define um método em Java que atribui o comportamento que o robo irá executar.
+    /**
+     * The code block below defines a method in Java that assigns the behavior
+     * that the robot will execute.
+     */
+
     public void setComportamento(Comportamento comportamento){
         this.comportamento = comportamento;
         
