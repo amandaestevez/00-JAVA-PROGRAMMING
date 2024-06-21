@@ -1,4 +1,4 @@
-package padroesprojetojava.strategy;
+package padroesprojetojava.Strategy;
 
 public class ComportamentoAgressivo implements Comportamento {
 
