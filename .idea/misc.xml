@@ -5,6 +5,7 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/springinitializr/pom.xml" />
+        <option value="$PROJECT_DIR$/src/usingmockito/pom.xml" />
       </list>
     </option>
   </component>
