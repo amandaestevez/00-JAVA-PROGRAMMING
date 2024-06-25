@@ -1,3 +1,6 @@
 [submodule "using-mockito"]
 	path = using-mockito
 	url = https://github.com/amandaestevez/using-mockito.git
+[submodule "junitwithgradlebuilding"]
+	path = junitwithgradlebuilding
+	url = https://github.com/amandaestevez/junitwithgradlebuilding.git
