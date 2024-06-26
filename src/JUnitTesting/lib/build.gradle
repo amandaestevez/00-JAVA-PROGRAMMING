@@ -1,4 +1,4 @@
-package junitwithgradlebuilding.lib
+package JUnitTesting.lib
 
 plugins {
     id 'java-library'
@@ -13,8 +13,8 @@ repositories {
 
 dependencies {
     api 'org.apache.commons:commons-math3:4.0-beta1'
-    testImplementation platform('org.junit:junit-bom:5.10.2')
-    testImplementation 'org.junit.jupiter:junit-jupiter-engine:5.10.2'
+    testImplementation platform('org.junit:junit-bom:5.11.0-M2')
+    testImplementation 'org.junit.jupiter:junit-jupiter-engine:5.11.0-M2'
 }
 
 test {

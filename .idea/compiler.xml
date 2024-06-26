@@ -6,9 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="usingmockito" />
-        <module name="usingmockito (1)" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="usingmockito" target="21" />
+      <module name="usingmockito (1)" target="21" />
+    </bytecodeTargetLevel>
   </component>
 </project>

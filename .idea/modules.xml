@@ -5,8 +5,6 @@
       <module fileurl="file://$PROJECT_DIR$/00-BASICS/src/00-BASICS.iml" filepath="$PROJECT_DIR$/00-BASICS/src/00-BASICS.iml" />
       <module fileurl="file://$PROJECT_DIR$/00-BASICS/00-BASICS1.iml" filepath="$PROJECT_DIR$/00-BASICS/00-BASICS1.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/00-JAVA-PROGRAMMING.iml" filepath="$PROJECT_DIR$/.idea/00-JAVA-PROGRAMMING.iml" />
-      <module fileurl="file://$PROJECT_DIR$/src/usingmockito/usingmockito.iml" filepath="$PROJECT_DIR$/src/usingmockito/usingmockito.iml" />
-      <module fileurl="file://$PROJECT_DIR$/src/using-mockito/usingmockito (1).iml" filepath="$PROJECT_DIR$/src/using-mockito/usingmockito (1).iml" />
     </modules>
   </component>
 </project>
