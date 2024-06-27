@@ -33,11 +33,19 @@ Packages included:
 
 ```
 Packages included:
-- creatingusercatalog: Manage a comprehensive catalog of users for your e-commerce platform. Create, edit, and store user information efficiently.
-- discountcalculator: Implement a discount system tailored to your business needs. This program provides a foundation for calculating discounts based on pre-defined rules (specific implementation details may vary).
+- creatingusercatalog: Let users subscribe to your ecommerce list.
+- discountcalculator: Let users choose the discount they prefer.
 ```
 
-- javacalculator: A fundamental calculator program that performs basic arithmetic operations: addition, subtraction, multiplication, and division. This can serve as a building block for more complex calculator applications.
+- [javacalculator:](https://github.com/amandaestevez/00-JAVA-PROGRAMMING/tree/29712724f52decd0aafae0fd313d2a290890ca12/src/javacalculator) A program that performs basic arithmetic operations: addition, subtraction, multiplication, and division. This can serve as a building block for more complex calculator applications.
+
+```
+Classes included:
+- Operation (interface): defines the contract for all mathematical operations.
+- AddOperation: implements the 'Operation' interface to perform the addition.
+- SubtractOperation: implements the 'Operation' interface to perform the subtraction.
+```
+
 
 - JUnitTesting: This program demonstrates the power of unit testing using the JUnit framework. Leverage this as a template to write unit tests for your own projects, ensuring the reliability and maintainability of your codebase.
 - 
