@@ -8,7 +8,7 @@ public class Main {
             System.out.print("Please insert the USD value for conversion: ");
             double input = Double.parseDouble(scanner.nextLine());
 
-            OldCurrencyConverter oldConverter = new OldCurrencyConverter();
+            OldConverter oldConverter = new OldConverter();
             CurrencyAdapter adapter = new CurrencyAdapter(oldConverter);
 
             // Converts from USD to EUR

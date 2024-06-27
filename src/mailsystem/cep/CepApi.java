@@ -1,4 +1,4 @@
-package subsistema2.cep;
+package mailsystem.cep;
 
 public class CepApi {
 

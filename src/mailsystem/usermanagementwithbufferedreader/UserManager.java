@@ -1,4 +1,4 @@
-package usermanagementwithbufferedreader;
+package mailsystem.usermanagementwithbufferedreader;
 import java.util.ArrayList;
 import java.util.List;
 

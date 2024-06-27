@@ -1,4 +1,4 @@
-package usermanagementsystemwithscanner;
+package mailsystem.usermanagementsystemwithscanner;
 
 
 import java.util.ArrayList;

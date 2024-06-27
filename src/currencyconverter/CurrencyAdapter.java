@@ -2,9 +2,9 @@ package currencyconverter;
 
 // Adapter
 class CurrencyAdapter {
-    private final OldCurrencyConverter oldConverter;
+    private final OldConverter oldConverter;
 
-    public CurrencyAdapter(OldCurrencyConverter oldConverter) {
+    public CurrencyAdapter(OldConverter oldConverter) {
         this.oldConverter = oldConverter;
     }
 

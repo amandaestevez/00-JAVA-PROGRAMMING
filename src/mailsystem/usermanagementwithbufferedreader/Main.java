@@ -1,4 +1,4 @@
-package usermanagementwithbufferedreader;
+package mailsystem.usermanagementwithbufferedreader;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;

@@ -1,4 +1,4 @@
-package usermanagementsystemwithscanner;
+package mailsystem.usermanagementsystemwithscanner;
 
 class UserManager {
     public UserManager(){
