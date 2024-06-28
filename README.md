@@ -59,8 +59,8 @@ Packages included:
 
 ```
 Packages included:
-- cep: contains the "CepApi" class, a Singleton that provides methods to simulate retreiving cities and States based on a postal code.
-- crm: contains the "CrmService" class, which Singleton class simulating a CRM system. Provides a static method gravarCliente to save customer information (name, CEP, city, state).
+- cep: contains the "CepApi" class, a Singleton that provides methods to simulate retrieving cities and States based on a postal code.
+- crm: contains the "CrmService" class, a Singleton class simulating a CRM system. Provides a static method gravarCliente to save customer information (name, CEP, city, state).
 - usermanagementsystemwithscanner: This package implements a user management system using a Scanner for user input. It contains the following classes>
       - User: defines a simple data structure for a user with an ID and a name.
       - UserManager: manages the user data using a static list (users). It utilizes the User class to create and store user objects.
