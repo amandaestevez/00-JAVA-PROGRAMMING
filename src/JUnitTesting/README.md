@@ -160,8 +160,70 @@ public class DatabaseConnectionManagementSystemTest {
 }
 
 ```
+The `@BeforeAll` annotated static method `setupConnection` is **_executed only once before all test methods_** in the class due to the annotation. This ensures a single database connection is established specifically for the entire test suite, improving efficiency and avoiding redundant connection creation for each test.
 
-This code snippet declares the test class, which includes the following annotations:
+The `@BeforeEach` annotation ensures that the `insertTestData` method is **_executed before each individual test_** (`@Test`) within the class. This method simulates adding a sample user to the database using the `DatabaseConnectionManagementSystem.insertUserData` method, providing a clean and consistent test environment for each test case.
 
-- `@BeforeAll:` indicates that the following method (`setupConnection`) is run only once before all test methods (`@Test`) within this class are executed.
- Inside the method, it calls the startConnection method from the DatabaseConnectionManagementSystem class (assuming it exists and has such a method). This likely establishes a database connection specifically for testing purposes.
+The `@AfterEach` annotation in this case ensures that the `removeTestData` method is **_executed after each individual test method_** (`@Test`) finishes running. This method simulates removing the sample user data that was inserted before each test using `@BeforeEach` to help maintain a clean and isolated testing environment.
+
+```java
+
+@Test
+void validateReturnData(){
+    Assertions.assertTrue(true);
+}
+
+@Test
+void validateNullData(){
+    Assertions.assertNull(null);
+}
+
+@AfterAll
+static void endConnection(){
+    DatabaseConnectionManagementSystem.endConnection();
+}
+}
+
+```
+
+The `@Test` annotations mark the methods `validateReturnData` and `validateNullData` as test methods. These methods are intended to verify specific functionalities of the code. 
+
+The `@AfterAll` annotated static method `endConnection` is executed **_only once after all test methods_**  in the class.
+
+**Class 02: _PessoaTest.java_**
+
+```java
+
+package JUnitTesting.lib.src.test.java;
+
+import JUnitTesting.lib.src.main.Pessoa;
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Test;
+
+import java.time.LocalDateTime;
+
+```
+
+The snippet above provides the essential imports to run the test:
+
+`- JUnitTesting.lib.src.main.Pessoa:` Imports the class from the main package that is going to be tested.
+
+`- org.junit.jupiter.api.Assertions:` Imports methods for _JUnit tests_ to check if code behaves as expected.
+
+`- org.junit.jupiter.api.Test:`Imports the `@Test` annotation used to mark methods as test cases.
+
+`- java.time.LocalDateTime:` Imports the `LocalDateTime` class for date and time manipulation.
+
+
+```java
+
+public class PessoaTest {
+
+    @Test
+    void deveCalcularIdadeCorretamente() {
+        Pessoa jessica = new Pessoa("Jéssica", LocalDateTime.of(2000, 1, 1, 15, 0, 0));
+        Assertions.assertEquals(24, jessica.getIdade());
+    }
+    
+```
+The snippet above establishes the `PessoaTest` class, which will contain the tests.
